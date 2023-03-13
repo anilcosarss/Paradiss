@@ -1,0 +1,82 @@
+
+@font-face {
+    font-family: bold;
+    src: url(../fonts/Gilroy-Bold.ttf);
+    font-weight: bold;
+  }
+  
+  @font-face {
+    font-family: Medium;
+    src: url(../fonts/Gilroy-Medium.ttf);
+    font-weight: medium;
+  }
+  
+  @font-face {
+    font-family: light;
+    src: url(../fonts/Gilroy-Light.ttf);
+    font-weight: light;
+  }
+  
+  :root {
+    --p-h-dark: #1F1F1F;
+    --p-gray: #737373;
+    --dark-blue: #1B6DF1;
+    --normal-blue: #508FF4;
+    --footer-color: #083378;
+  
+  }
+  .footer-logo .logo-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 36px;
+  }
+  .footer-logo span {
+    font-size: 25.34px;
+    font-family: bold;
+  }
+
+  .footer-logo p {
+    font-size: 18px;
+    color: #404040;
+    margin-right: 0px;
+    white-space: pre;
+   
+  }
+
+
+.footer-up {
+    display: flex;
+    padding: 0px 170px;
+    padding-top: 78px;
+    gap: 50px;
+}
+
+
+.footer-up ul li {
+    list-style: none;
+    margin-bottom: 38px;
+    font-size: 16px;
+    
+}
+
+.footer-up ul li:first-child {
+    font-size: 20px;
+    font-family: bold;
+    margin-bottom: 40px;
+}
+
+.footer-up ul:last-child li {
+    display: flex;
+    gap: 8.83px;
+    
+}
+
+.footer-down {
+  padding: 47px 170px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #083378;
+  color: #fff;
+}
+
+
